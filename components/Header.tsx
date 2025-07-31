@@ -87,9 +87,12 @@ const Header = () => {
               <span className="absolute left-2 top-2 text-gray-700 text-xl">
                 <CiSearch />
               </span>
-              <Input className="w-full border border-primary border-r-0 pl-12 py-3 pr-3 rounded-r-none rounded-l-md focus:outline-none focus-visible:ring-0 focus-visible:border-primary focus:border-primary" />
+              <Input
+                placeholder="Tìm kiếm sản phẩm"
+                className="w-full border border-primary border-r-0 pl-12 py-3 pr-3 rounded-r-none rounded-l-md focus:outline-none focus-visible:ring-0 focus-visible:border-primary focus:border-primary"
+              />
               <Button className="bg-primary border border-primary text-white px-8 rounded-l-none hover:bg-transparent hover:text-primary transition hover:cursor-pointer">
-                Search
+                Tìm kiếm
               </Button>
             </div>
           </div>
@@ -165,7 +168,7 @@ const Header = () => {
                     <div className="absolute top-full left-0 bg-gray-800 p-4 z-10 w-max">
                       {selectedProduct.productCategory.map((category: any) => (
                         <div key={category.id}>
-                          <a className="text-gray-300 hover:text-white transition text-[12px] font-medium hover:cursor-pointer whitespace-nowrap">
+                          <a className="text-gray-300 hover:text-white transition text-[14px] font-medium hover:cursor-pointer whitespace-nowrap">
                             {category.name}
                           </a>
                         </div>

@@ -14,7 +14,7 @@ import { LuHandCoins } from "react-icons/lu";
 const Footer = () => {
   return (
     <main>
-      <div className="hidden md:flex w-full bg-primary flex-col py-2 mt-[200px] md:flex-row md:px-5 xl:px-[12%] justify-between max-w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1240px] 2xl:max-w-[1536px] mx-auto">
+      <div className="hidden md:flex w-full bg-primary flex-col py-2 mt-[20px] md:flex-row md:px-5 xl:px-[12%] justify-between max-w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1240px] 2xl:max-w-[1536px] mx-auto">
         <div className="flex items-center gap-4">
           <PiClockCountdown className="text-4xl text-yellow-400" />
           <p className="text-white text-[14px] font-medium">
@@ -57,10 +57,10 @@ const Footer = () => {
             </p>
           </a>
           <div className="flex flex-col gap-2">
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 text-[16px]">
               <MdLocationOn className="hidden md:block text-3xl text-primary" />
-              <p className="text-[16px] font-medium md:hidden">Địa chỉ:</p>
-              <span className="text-[16px] md:text-[12px]">
+              <p className=" font-medium md:hidden">Địa chỉ:</p>
+              <span className=" md:text-[12px]">
                 Số 11 Phố Mộ Lao - P.Mỗ Lao - Q.Hà Đông - TP. Hà Nội
               </span>
             </p>
@@ -104,7 +104,7 @@ const Footer = () => {
             </a>
           </div>
         </section>
-        <section className="md:block w-full md:w-[50%] hidden flex-col items-center">
+        <section className="md:block w-full md:w-[50%] hidden flex-col items-center justify-center">
           <div>
             <p className="uppercase text-lg font-medium">
               FANPAGE của chúng tôi

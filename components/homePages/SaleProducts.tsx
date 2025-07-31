@@ -53,12 +53,9 @@ const dataProducts = [
 const SaleProducts = () => {
   return (
     <div>
-      <section className="bg-orange-400 p-[40px] w-full flex flex-col items-center justify-center gap-[20px] border border-gray-500">
+      <section className="hidden sm:flex bg-orange-400 p-[40px] w-full flex-col items-center justify-center gap-[20px] border border-gray-500">
         <div className="bg-orange-600 flex items-center rounded-2xl justify-center w-[50%]">
-          <a
-            className="text-[30px] text-white font-bold italic animate-pulse"
-            href=""
-          >
+          <a className="text-[30px] text-white font-bold italic" href="">
             Xả hàng - Không lợi nhuận
           </a>
         </div>
