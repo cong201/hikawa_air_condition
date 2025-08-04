@@ -1,13 +1,14 @@
 import React from "react";
 import { IoMdAddCircle } from "react-icons/io";
 import { Button } from "./ui/button";
+import Image from "next/image";
 const DesProduct = () => {
   return (
     <div className="flex flex-row justify-center items-center w-[70%] gap-10">
       <section className="flex flex-row gap-4 items-center justify-center">
         <div>
-          <img
-            className="w-[180px]"
+          <Image
+            className="width={180}"
             src="https://muahangtaikho.vn/media/product/250_4600_rt22.png"
             alt=""
           />

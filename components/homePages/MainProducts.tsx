@@ -98,18 +98,15 @@ const MainProducts = () => {
     window.addEventListener("resize", checkMobile);
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
-
+  if (isMobile === null) return null;
   const visibleProducts = isMobile
     ? dataProducts.slice(0, 3)
     : dataProducts.slice(0, 5);
   return (
     <main>
       {products.map((product, index) => (
-        <div>
-          <section
-            key={index}
-            className="flex justify-between border-t-2 border-primary mt-6 items-center"
-          >
+        <div key={index}>
+          <section className="flex justify-between border-t-2 border-primary mt-6 items-center">
             <div className="flex items-center gap-6">
               <div className="bg-primary p-1 rounded-bl-xl rounded-br-xl">
                 <p className="uppercase text-sm font-medium text-white italic px-2 py-1">

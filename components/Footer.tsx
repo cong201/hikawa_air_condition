@@ -57,13 +57,13 @@ const Footer = () => {
             </p>
           </a>
           <div className="flex flex-col gap-2">
-            <p className="flex items-center gap-2 text-[16px]">
+            <a className="flex items-center gap-2 text-[16px]">
               <MdLocationOn className="hidden md:block text-3xl text-primary" />
               <p className=" font-medium md:hidden">Địa chỉ:</p>
               <span className=" md:text-[12px]">
                 Số 11 Phố Mộ Lao - P.Mỗ Lao - Q.Hà Đông - TP. Hà Nội
               </span>
-            </p>
+            </a>
             <a className="flex items-center gap-2" href="">
               <FaPhoneSquareAlt className="hidden md:block text-3xl text-primary" />
               <p className="text-[16px] font-medium md:hidden">Số đt:</p>
